@@ -12,13 +12,13 @@ function play(id)
     Sound:Play()
  end
 
-function library:CreateWindow(name,theme)
+function library:CreateWindow(name,Canary)
 local theme1
 local theme2
 local theme3
 local toolight = false
     for i,v in pairs(game.CoreGui:GetChildren()) do
-if v.Name == "By Shaddow" then
+if v.Name == "By ???" then
         v:Destroy()
     end
 end
